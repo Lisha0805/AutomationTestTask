@@ -1,0 +1,47 @@
+2023-02-18 01:12:52 INFO  - Authorization(username=admin, password=password123)
+2023-02-18 01:12:52 INFO  - https://restful-booker.herokuapp.com/
+2023-02-18 02:17:44 INFO  - Authorization(username=admin, password=password123)
+2023-02-18 02:17:44 INFO  - https://restful-booker.herokuapp.com/
+2023-02-21 00:09:29 INFO  - Input user details for user –ò–≤–∞–Ω –ò–≤–∞–Ω–æ–≤
+2023-02-21 00:11:28 INFO  - Input user details for user –ò–≤–∞–Ω –ò–≤–∞–Ω–æ–≤
+2023-02-21 00:11:48 INFO  - Input user details for user –ò–≤–∞–Ω –ò–≤–∞–Ω–æ–≤
+2023-02-21 00:14:30 INFO  - Input user details for user –ò–≤–∞–Ω –ò–≤–∞–Ω–æ–≤
+2023-02-22 01:40:27 INFO  - Open user details page
+2023-02-22 01:40:28 INFO  - Input user details for user »‚‡Ì »‚‡ÌÓ‚
+2023-02-22 01:56:11 INFO  - Open user details page
+2023-02-22 01:56:12 INFO  - Input user details for user »‚‡Ì »‚‡ÌÓ‚
+2023-02-22 12:44:42 INFO  - Open login page
+2023-02-22 12:44:44 INFO  - Input user details for user »‚‡Ì »‚‡ÌÓ‚
+2023-02-22 12:45:21 INFO  - Open login page
+2023-02-22 12:45:22 INFO  - Input user details for user »‚‡Ì »‚‡ÌÓ‚
+2023-02-22 14:27:52 INFO  - Open login page
+2023-02-22 14:27:54 INFO  - Input user details for user qqwesg Test123#fg
+2023-02-22 14:31:06 INFO  - Open login page
+2023-02-22 14:31:08 INFO  - Input user details for user qqwesg1 Test1231#fg
+2023-02-22 14:34:19 INFO  - Open login page
+2023-02-22 14:34:21 INFO  - Input user details for user qqwresg1 Tesrt1231#fg
+2023-02-22 14:35:19 INFO  - Open login page
+2023-02-22 14:35:21 INFO  - Input user details for user qqwrwesg1 Tesrwt1231#fg
+2023-02-22 14:37:19 INFO  - Open login page
+2023-02-22 14:37:21 INFO  - Input user details for user qqwrfwesg1 Tesfrwt1231#fg
+2023-02-22 14:46:01 INFO  - Open login page
+2023-02-22 14:46:03 INFO  - Input user details for user qqwrfwdesg1 Tesfrwdt1231#fg
+2023-02-22 14:48:38 INFO  - Open login page
+2023-02-22 14:48:40 INFO  - Input user details for user qqwrfdwdesg1 Tesdfrwdt1231#fg
+2023-02-22 14:49:20 INFO  - Open login page
+2023-02-22 14:49:22 INFO  - Input user details for user qqwrfddwdesg1 Tdesdfrwdt1231#fg
+2023-02-22 14:53:39 INFO  - Open login page
+2023-02-22 14:53:40 INFO  - Input user details for user qqwrfresg1 Tdes51#fg
+2023-02-22 17:47:09 INFO  - Open login page
+2023-02-22 17:47:11 INFO  - Input user details for user gWhG jG1$gM6$nQ9#
+2023-02-22 22:07:01 INFO  - Open login page
+2023-02-22 22:07:03 INFO  - Input user details for user oEuL eM0$zP2#cM8#
+2023-02-24 00:48:21 INFO  - Open login page
+2023-02-24 00:48:23 INFO  - Input user details for user zGeO
+2023-02-24 00:48:23 INFO  - Verify profile page is opened
+2023-02-24 00:50:16 INFO  - Open login page
+2023-02-24 00:50:18 INFO  - Input user details for user xFaG
+2023-02-24 00:50:18 INFO  - Verify profile page is opened
+2023-02-24 01:15:58 INFO  - Open login page
+2023-02-24 01:15:59 INFO  - Input user details for user cYdF
+2023-02-24 01:16:00 INFO  - Verify profile page is opened
