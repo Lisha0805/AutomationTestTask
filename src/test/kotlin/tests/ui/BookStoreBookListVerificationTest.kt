@@ -1,35 +1,20 @@
 package tests.ui
 
-import api.controller.BookStoreBookListController
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
-import ui.tables.BookStoreTable
+import services.BookListOperations
 
-class BookStoreBookListVerificationTest: UiBaseTest() {
-
-    /*@BeforeEach
-    fun open(){
-        driver().get("https://demoqa.com/books")
-    }*/
+class BookStoreBookListVerificationTest : UiBaseTest() {
+    private lateinit var actualBookTitlesList: List<String>
+    private lateinit var expectedBookTitlesList: List<String>
 
     @Test
     fun verifyBookListTest() {
-        val expectedBookList = BookStoreBookListController().getBookList().books
-        val expectedBookTitlesList = expectedBookList.map {
-            it.title
+        BookListOperations().apply {
+            openBooksPage()
+            actualBookTitlesList = getBookListFromUi()
+            expectedBookTitlesList = getBookListFromApi()
         }
-        val actualBookTitlesList = BookStoreTable().getColumnContent("Title")
         Assertions.assertEquals(actualBookTitlesList, expectedBookTitlesList)
     }
-
-    //создать класс operations: методы для создания листов
-    //operations
-// apply
-// {
-// list1
-//    list2
-// }
-    // assert
-
-    // метод beforeEach -> openPage закинуть в operations
 }
