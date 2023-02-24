@@ -3,7 +3,7 @@ package webdriver
 import org.openqa.selenium.WebDriver
 import webdriver.builder.DriverBuilder
 
-object DriverHolder {
+internal object DriverHolder {
     var driver: WebDriver? = null
 
     fun driver(): WebDriver {

@@ -8,17 +8,17 @@ import org.openqa.selenium.WebDriver
 import webdriver.DriverHolder.driver
 
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-abstract class UiBaseTest {
+internal abstract class UiBaseTest {
     private lateinit var driver: WebDriver
 
     @BeforeAll
-    fun testSetUp(){
+    fun testSetUp() {
         StaticContext.setContext()
         driver = driver()
     }
 
     @AfterEach
-    fun testTearDown(){
+    fun testTearDown() {
         driver.quit()
     }
 }

@@ -4,7 +4,7 @@ import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 import webdriver.DriverHolder.driver
 
-abstract class Table {
+internal abstract class Table {
     abstract var tableLocator: By
     abstract var tableBodyLocator: By
     abstract val rowLocator: By

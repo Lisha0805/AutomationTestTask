@@ -3,11 +3,11 @@ package tests.ui
 import api.controller.BookStoreAuthorizationController
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-import services.LoginOperations
+import services.login.LoginOperations
 import api.model.UserData
-import services.UserDataProvider.getUserData
+import services.userdata.UserDataProvider.getUserData
 
-class BookStoreLoginTest: UiBaseTest() {
+internal class BookStoreLoginTest : UiBaseTest() {
     private lateinit var expectedUser: UserData
 
     @BeforeEach

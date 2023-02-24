@@ -3,7 +3,7 @@ package context
 import config.ConfigProvider
 import config.model.ApplicationConfiguration
 
-object StaticContext : BaseContext {
+internal object StaticContext : BaseContext {
     private lateinit var applicationConfig: ApplicationConfiguration
 
     fun getBaseUrl(): String {

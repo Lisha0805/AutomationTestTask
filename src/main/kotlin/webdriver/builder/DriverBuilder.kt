@@ -4,7 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager
 import org.openqa.selenium.WebDriver
 import java.time.Duration
 
-class DriverBuilder {
+internal class DriverBuilder {
     private val defaultPageLoadTimeoutSeconds = 45L
     private val defaultImplicitlyTimeoutSeconds = 45L
 
@@ -14,7 +14,7 @@ class DriverBuilder {
         return driver
     }
 
-    private fun configureDriver(driver: WebDriver){
+    private fun configureDriver(driver: WebDriver) {
         driver.manage().apply {
             window().maximize()
             timeouts().pageLoadTimeout(Duration.ofSeconds(defaultPageLoadTimeoutSeconds))

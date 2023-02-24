@@ -3,11 +3,11 @@ package ui.pages
 import org.openqa.selenium.WebDriver
 import webdriver.DriverHolder
 
-abstract class BasePage {
+internal abstract class BasePage {
     abstract val pageUrl: String
     val driver: WebDriver = DriverHolder.driver()
 
-    fun openPage(){
+    fun openPage() {
         driver.get(pageUrl)
     }
 }

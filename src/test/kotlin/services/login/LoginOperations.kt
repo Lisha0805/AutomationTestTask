@@ -1,4 +1,4 @@
-package services
+package services.login
 
 import api.model.UserData
 import logger.Logger.info
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement
 import ui.pages.LoginPage
 import ui.pages.ProfilePage
 
-class LoginOperations(
+internal class LoginOperations(
     private val loginPage: LoginPage = LoginPage(),
     private val profilePage: ProfilePage = ProfilePage()
 ) {

@@ -1,10 +1,10 @@
-package services
+package services.booklist
 
 import api.controller.BookStoreBookListController
 import logger.Logger.info
 import ui.pages.BooksPage
 
-class BookListOperations(
+internal class BookListOperations(
     private val booksPage: BooksPage = BooksPage()
 ) {
     private val columnName = "Title"

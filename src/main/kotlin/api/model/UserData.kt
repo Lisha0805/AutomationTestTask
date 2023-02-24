@@ -1,6 +1,6 @@
 package api.model
 
-data class UserData(
+internal data class UserData(
     val userName: String,
     val password: String
 )

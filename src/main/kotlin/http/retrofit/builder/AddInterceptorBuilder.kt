@@ -4,7 +4,7 @@ import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 
-class AddInterceptorBuilder {
+internal class AddInterceptorBuilder {
     private val defaultInterceptorList: List<Interceptor> = listOf(addLoggingInterceptors())
 
     private fun addLoggingInterceptors(): Interceptor {

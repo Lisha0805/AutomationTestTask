@@ -1,6 +1,6 @@
 package api.model
 
-data class BookDetails(
+internal data class BookDetails(
     val isbn: Long,
     val title: String,
     val subTitle: String,

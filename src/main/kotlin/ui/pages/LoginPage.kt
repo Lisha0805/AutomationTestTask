@@ -3,7 +3,7 @@ package ui.pages
 import context.StaticContext.getBaseUrl
 import org.openqa.selenium.By
 
-class LoginPage: BasePage() {
+internal class LoginPage : BasePage() {
     override val pageUrl: String = "${getBaseUrl()}/login"
     private val userNameField: By = By.id("userName")
     private val passwordField: By = By.id("password")
@@ -17,7 +17,7 @@ class LoginPage: BasePage() {
         driver.findElement(passwordField).sendKeys(password)
     }
 
-    fun clickNextButton(){
+    fun clickNextButton() {
         driver.findElement(nextButton).click()
     }
 }

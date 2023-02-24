@@ -4,9 +4,8 @@ import api.model.*
 import http.retrofit.builder.BookStoreRetrofitBuilder
 import api.services.BookStoreService
 
-class BookStoreBookListController(
-    private val bookStoreService: BookStoreService = BookStoreRetrofitBuilder().createService()
-        .create(BookStoreService::class.java)
+internal class BookStoreBookListController(
+    private val bookStoreService: BookStoreService = BookStoreRetrofitBuilder().createService(BookStoreService::class.java)
 ) {
 
     fun getBookList(): GetBookListResponse {

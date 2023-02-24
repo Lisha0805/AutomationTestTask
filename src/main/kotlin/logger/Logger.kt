@@ -3,7 +3,7 @@ package logger
 import org.apache.log4j.Logger
 import org.apache.log4j.PropertyConfigurator
 
-object Logger {
+internal object Logger {
     private val log: Logger = Logger.getLogger("Log")
     private const val PROPERTY_PATH = "src/main/resources/logger/log4j.properties"
 

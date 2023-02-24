@@ -1,3 +1,3 @@
 package config.model
 
-interface Configuration
+internal interface Configuration

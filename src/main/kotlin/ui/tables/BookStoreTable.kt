@@ -3,7 +3,7 @@ package ui.tables
 import org.openqa.selenium.By
 import ui.customelements.Table
 
-class BookStoreTable: Table() {
+internal class BookStoreTable : Table() {
     override var tableLocator: By = By.className("rt-table")
     override var tableBodyLocator: By = By.className("rt-tbody")
     override val rowLocator: By = By.cssSelector("[role='row']")

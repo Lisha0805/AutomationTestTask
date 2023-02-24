@@ -1,5 +1,5 @@
 package api.model
 
-data class GetBookListResponse(
+internal data class GetBookListResponse(
     val books: List<BookDetails>
 )

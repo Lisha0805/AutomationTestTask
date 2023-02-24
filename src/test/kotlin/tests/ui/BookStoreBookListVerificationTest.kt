@@ -2,18 +2,18 @@ package tests.ui
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
-import services.BookListOperations
+import services.booklist.BookListOperations
 
-class BookStoreBookListVerificationTest : UiBaseTest() {
-    private lateinit var actualBookTitlesList: List<String>
+internal class BookStoreBookListVerificationTest : UiBaseTest() {
     private lateinit var expectedBookTitlesList: List<String>
+    private lateinit var actualBookTitlesList: List<String>
 
     @Test
     fun verifyBookListTest() {
         BookListOperations().apply {
             openBooksPage()
-            actualBookTitlesList = getBookListFromUi()
             expectedBookTitlesList = getBookListFromApi()
+            actualBookTitlesList = getBookListFromUi()
         }
         Assertions.assertEquals(actualBookTitlesList, expectedBookTitlesList)
     }

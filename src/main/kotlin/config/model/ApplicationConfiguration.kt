@@ -1,5 +1,5 @@
 package config.model
 
-data class ApplicationConfiguration(
+internal data class ApplicationConfiguration(
     var baseUrl: String? = null
-): Configuration
+) : Configuration

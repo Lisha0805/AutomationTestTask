@@ -1,8 +1,8 @@
-package services
+package services.userdata
 
 import java.lang.StringBuilder
 
-object UserDataGenerator {
+internal object UserDataGenerator {
     private val mandatoryPasswordChars: List<CharRange> = listOf(('a'..'z'), ('A'..'Z'), ('0'..'9'), ('!'..'%'))
     private val mandatoryUserNameChars: List<CharRange> = listOf(('a'..'z'), ('A'..'Z'))
 

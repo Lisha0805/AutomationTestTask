@@ -1,3 +1,3 @@
 package context
 
-interface BaseContext
+internal interface BaseContext
